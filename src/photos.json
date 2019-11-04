@@ -1,0 +1,16 @@
+[
+  {
+    "id": 0,
+    "title": "Jasons first pic",
+    "filename": "sample-1.jpg",
+    "location": "Dark side of the moon",
+    "description": "It's a picture"
+  },
+  {
+    "id": 1,
+    "title": "Jasons second Pic",
+    "filename": "sample-2.jpg",
+    "location": "Light side of the moon",
+    "description": "Good stuff"
+  }
+]
