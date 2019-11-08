@@ -3,23 +3,23 @@
     <section class="link_container">
       <a href="#" class="link">
         <div>
-          JASON MATTINGLY
+          J A S O N<br />M A T T I N G L Y
         </div>
       </a>
     </section>
-    <li>first thing</li>
-    <li>second thing</li>
-    <li>third thing</li>
+    <div style="margin-left: 20px; font-family: 'Source Serif Pro'; font-size: .9em;">
+      South Africa 2019
+    </div>
   </section>
 </template>
 <style>
-@import url('https://fonts.googleapis.com/css?family=Cardo');
+@import url('https://fonts.googleapis.com/css?family=Cardo|Source+Serif+Pro');
 .menu {
   width: 250px;
   position: fixed;
   font-family: 'Cardo';
   font-weight: bold;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 .link {
   text-decoration: none;
@@ -28,7 +28,7 @@
   text-align: center;
 }
 .link_container {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
 </style>

@@ -55,7 +55,7 @@ export default {
   .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-    grid-gap: 1rem;
+    grid-gap: .1rem;
     max-width: 80rem;
     margin-left: 290px;
     margin-right: 40px;
@@ -68,6 +68,6 @@ export default {
     width: 100%;
     height: 16vw;
     object-fit: cover;
-    border-radius: 0.75rem;
+    border-radius: 0.1rem;
   }
 </style>
