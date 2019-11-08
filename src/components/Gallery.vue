@@ -7,6 +7,34 @@
         <img :src="require(`../assets/thumbnail-photos/${photo.filename}`)">
       </router-link>
     </div>
+    <div class="gallery-panel"
+         v-for="photo in photos"
+         :key="photo.id">
+      <router-link :to="`/photo/${photo.id}`">
+        <img :src="require(`../assets/thumbnail-photos/${photo.filename}`)">
+      </router-link>
+    </div>
+    <div class="gallery-panel"
+         v-for="photo in photos"
+         :key="photo.id">
+      <router-link :to="`/photo/${photo.id}`">
+        <img :src="require(`../assets/thumbnail-photos/${photo.filename}`)">
+      </router-link>
+    </div>
+    <div class="gallery-panel"
+         v-for="photo in photos"
+         :key="photo.id">
+      <router-link :to="`/photo/${photo.id}`">
+        <img :src="require(`../assets/thumbnail-photos/${photo.filename}`)">
+      </router-link>
+    </div>
+    <div class="gallery-panel"
+         v-for="photo in photos"
+         :key="photo.id">
+      <router-link :to="`/photo/${photo.id}`">
+        <img :src="require(`../assets/thumbnail-photos/${photo.filename}`)">
+      </router-link>
+    </div>
   </div>
 </template>
 
@@ -29,8 +57,9 @@ export default {
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
     grid-gap: 1rem;
     max-width: 80rem;
-    margin: 5rem auto;
-    padding: 0 5rem;
+    margin-left: 200px;
+/*    margin: 5rem auto;*/
+    /*padding: 0 5rem;*/
   }
   .gallery-panel img {
     width: 100%;
