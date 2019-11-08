@@ -4,13 +4,15 @@
     "title": "Jasons first pic",
     "filename": "sample-1.jpg",
     "location": "Dark side of the moon",
-    "description": "It's a picture"
+    "description": "It's a picture",
+    "gallery_name": "south_africa_2019, other_gallery"
   },
   {
     "id": 1,
     "title": "Jasons second Pic",
     "filename": "sample-2.jpg",
     "location": "Light side of the moon",
-    "description": "Good stuff"
+    "description": "Good stuff",
+    "gallery_name": "other_gallery"
   }
 ]

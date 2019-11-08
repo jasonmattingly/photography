@@ -1,6 +1,13 @@
 <template>
   <div class="gallery">
     <div class="gallery-panel"
+         v-for="photo in selectedGalleryPhotos"
+         :key="photo.id">
+      <router-link :to="`/photo/${photo.id}`">
+        <img :src="require(`../assets/thumbnail-photos/${photo.filename}`)">
+      </router-link>
+    </div>
+    <!-- <div class="gallery-panel"
          v-for="photo in photos"
          :key="photo.id">
       <router-link :to="`/photo/${photo.id}`">
@@ -27,14 +34,7 @@
       <router-link :to="`/photo/${photo.id}`">
         <img :src="require(`../assets/thumbnail-photos/${photo.filename}`)">
       </router-link>
-    </div>
-    <div class="gallery-panel"
-         v-for="photo in photos"
-         :key="photo.id">
-      <router-link :to="`/photo/${photo.id}`">
-        <img :src="require(`../assets/thumbnail-photos/${photo.filename}`)">
-      </router-link>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -45,12 +45,17 @@ export default {
   name: 'Gallery',
   data() {
     return {
+      gallery_name: 'south_africa_2019',
       photos,
     };
   },
+  computed: {
+    selectedGalleryPhotos() {
+      return photos.filter(photo => photo.gallery_name.includes(this.gallery_name));
+    },
+  },
 };
 </script>
-
 <style>
   .gallery {
     display: grid;
