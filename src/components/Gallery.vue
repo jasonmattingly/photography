@@ -54,16 +54,19 @@ export default {
 <style>
   .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
     grid-gap: 1rem;
     max-width: 80rem;
-    margin-left: 200px;
+    margin-left: 290px;
+    margin-right: 40px;
+    margin-top: 40px;
+    padding-left: 30px;
 /*    margin: 5rem auto;*/
     /*padding: 0 5rem;*/
   }
   .gallery-panel img {
     width: 100%;
-    height: 22vw;
+    height: 16vw;
     object-fit: cover;
     border-radius: 0.75rem;
   }
