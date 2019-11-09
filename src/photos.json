@@ -1,6 +1,6 @@
 [
   {
-    "id": 0,
+    "id": 1,
     "title": "Jasons first pic",
     "filename": "sample-1.jpg",
     "location": "Dark side of the moon",
@@ -8,9 +8,57 @@
     "gallery_name": "south_africa_2019, other_gallery"
   },
   {
-    "id": 1,
+    "id": 2,
     "title": "Jasons second Pic",
     "filename": "sample-2.jpg",
+    "location": "Light side of the moon",
+    "description": "Good stuff",
+    "gallery_name": "other_gallery"
+  },
+  {
+    "id": 3,
+    "title": "Jasons third Pic",
+    "filename": "sample-3.jpg",
+    "location": "Light side of the moon",
+    "description": "Good stuff",
+    "gallery_name": "other_gallery"
+  },
+  {
+    "id": 4,
+    "title": "Jasons fourth Pic",
+    "filename": "sample-4.jpg",
+    "location": "Light side of the moon",
+    "description": "Good stuff",
+    "gallery_name": "other_gallery"
+  },
+  {
+    "id": 5,
+    "title": "Jasons fifth Pic",
+    "filename": "sample-5.jpg",
+    "location": "Light side of the moon",
+    "description": "Good stuff",
+    "gallery_name": "other_gallery"
+  },
+  {
+    "id": 6,
+    "title": "Jasons sixth Pic",
+    "filename": "sample-6.jpg",
+    "location": "Light side of the moon",
+    "description": "Good stuff",
+    "gallery_name": "other_gallery"
+  },
+  {
+    "id": 7,
+    "title": "Jasons seventh Pic",
+    "filename": "sample-7.jpg",
+    "location": "Light side of the moon",
+    "description": "Good stuff",
+    "gallery_name": "other_gallery"
+  },
+  {
+    "id": 8,
+    "title": "Jasons eighth Pic",
+    "filename": "sample-8.jpg",
     "location": "Light side of the moon",
     "description": "Good stuff",
     "gallery_name": "other_gallery"
