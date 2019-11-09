@@ -1,13 +1,20 @@
 <template>
+  <div>
+<center><h1 class="header">south africa 2019<h1></center>
   <div class="gallery">
+
     <div class="gallery-panel"
-         v-for="photo in photos"
+         v-for="(photo, index) in photos"
+         :class="`item_${index}`"
          :key="photo.id">
       <router-link :to="`/photo/${photo.id}`">
-        <img :src="require(`../assets/thumbnail-photos/${photo.filename}`)">
+        <img
+          :src="require(`../assets/thumbnail-photos/${photo.filename}`)"
+        >
       </router-link>
     </div>
   </div>
+</div>
 </template>
 
 <script>
@@ -29,16 +36,22 @@ export default {
 };
 </script>
 <style>
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+  .header {
+    margin-left: 240px;
+    margin-top: 40px;
+    font-family: 'Julius Sans One';
+  }
   .gallery {
     display: grid;
-    /*grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));*/
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 5vw);
-    grid-gap: .1rem;
+    grid-gap: .5rem;
     max-width: 80rem;
     margin-left: 290px;
-    margin-right: 40px;
-    margin-top: 40px;
+    margin-right: 50px;
+    margin-top: 20px;
+    /*margin-top: 10px;*/
     padding-left: 30px;
 /*    margin: 5rem auto;*/
     /*padding: 0 5rem;*/
@@ -50,11 +63,48 @@ export default {
     border-radius: 0.1rem;
   }
 
-  .item_1 {
+  .item_0 {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
   }
+
+  .item_1 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+  .item_2 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+  .item_3 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+  .item_4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+  .item_5 {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+  .item_6 {
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
 
 </style>

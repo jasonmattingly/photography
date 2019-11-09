@@ -54,13 +54,5 @@
     "location": "Light side of the moon",
     "description": "Good stuff",
     "gallery_name": "other_gallery"
-  },
-  {
-    "id": 8,
-    "title": "Jasons eighth Pic",
-    "filename": "sample-8.jpg",
-    "location": "Light side of the moon",
-    "description": "Good stuff",
-    "gallery_name": "other_gallery"
   }
 ]

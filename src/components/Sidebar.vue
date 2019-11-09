@@ -15,7 +15,7 @@
 <style>
 @import url('https://fonts.googleapis.com/css?family=Cardo|Source+Serif+Pro');
 .menu {
-  width: 250px;
+  width: 230px;
   position: fixed;
   font-family: 'Cardo';
   font-weight: bold;
