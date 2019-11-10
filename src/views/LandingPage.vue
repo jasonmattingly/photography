@@ -1,18 +1,18 @@
 <template>
   <div>
     <Sidebar />
-    <Gallery />
+    <Me />
   </div>
 </template>
 
 <script>
-import Gallery from '@/components/Me';
+import Me from '@/components/Me';
 import Sidebar from '@/components/Sidebar';
 
 export default {
   name: 'home',
   components: {
-    Gallery,
+    Me,
     Sidebar,
   },
 };

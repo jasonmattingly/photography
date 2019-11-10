@@ -15,11 +15,11 @@
 <style>
 @import url('https://fonts.googleapis.com/css?family=Cardo|Source+Serif+Pro');
 .menu {
-  width: 230px;
+  width: 210px;
   position: fixed;
   font-family: 'Cardo';
   font-weight: bold;
-  margin-left: 30px;
+  margin-left: 15px;
 }
 .link {
   text-decoration: none;

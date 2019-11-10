@@ -1,6 +1,7 @@
 <template>
   <div>
 <center><h1 class="header">south africa 2019<h1></center>
+
   <div class="gallery">
 
     <div class="gallery-panel"
@@ -106,5 +107,4 @@ export default {
     grid-row-start: 6;
     grid-row-end: 9;
 }
-
 </style>
